@@ -1,0 +1,177 @@
+body {
+    background-color: darkslategray;
+    color: ghostwhite;
+    font-family: 'Grenze Gotisch', cursive;
+  }
+  h4,
+  h6 {
+    background-color:darkgrey;
+    padding: 9px;
+    border-radius: 10px;
+    display: flex;
+    text-shadow: 4px 4px 4px #000000;
+  }
+  /* Page logo */
+  header {
+    text-align: center;
+    height: auto;
+    background-color: transparent;
+    object-fit: contain;
+  }
+  
+  /*ids below*/
+  
+  #submit-btn {
+    float: right;
+    border-radius: 7px;
+    background-color: #b0151f;
+  }
+  
+  #modalheader {
+    background-color: #b0151f;
+    padding: 9px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px #000000;
+  }
+  
+  #modal {
+    width: fit-content;
+  }
+  
+  #modalheaders {
+    background-color: #b0151f;
+    padding: 6px;
+    border-radius: 10px;
+    width: max-content;
+    margin-right: 5px;
+    text-shadow: 2px 2px 2px #000000;
+  }
+  
+  #title,
+  #actors,
+  #plot,
+  #rating,
+  #release {
+    color: black;
+  }
+  
+  #row2 {
+    background-color: rgb(182, 96, 39);
+    border-radius: 10px 10px 0px 0;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  #head2 {
+    margin: 0 0 20px 0;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  #submit-btn {
+    float: right;
+    border-radius: 7px;
+    background-color: darkgrey;
+  }
+  
+  #searchname {
+    margin: 0 5px 0 5px;
+    font-size: ;
+  }
+  
+  #modal {
+    width: 660px;
+    padding: 15px;
+  }
+  
+  /* classes below */
+  
+  .container {
+    border-radius: 10px;
+  }
+  
+  .responsive-img:hover {
+    box-shadow: 0 12px 14px 0 rgba(255, 255, 255, 0.2),
+      0 13px 20px 0 rgba(255, 255, 255, 0.19);
+  }
+
+  /* this code is for the search and instructions elements */
+  
+  .colS4 {
+    float: left;
+    margin: 1px;
+    width: 24%;
+  }
+  
+  .colS5 {
+    width: 42%;
+    float: left;
+    padding: 0 10px 10px 10px;
+  }
+  
+  .col-s4 {
+    float: left;
+    margin-left: 52px;
+    position: relative;
+  }
+  
+  .responsive-img:hover {
+    box-shadow: 0 12px 14px 0 rgba(255, 255, 255, 0.2),
+      0 13px 20px 0 rgba(255, 255, 255, 0.19);
+  }
+  
+  .colsearch {
+    float: left;
+    width: 58%;
+    padding: 0 10px 0 10px;
+  }
+  
+  .display {
+    color: black;
+    text-shadow: 2px 2px 0px ghostwhite;
+  }
+  
+  .miniImg {
+    float: right;
+    box-shadow: 4px 4px 0px #000000;
+    margin-right: 15px;
+  }
+  
+  .center {
+    justify-content: center;
+  }
+  
+  
+  /*media*/
+  
+  @media screen and (max-width: 800px) {
+    .colS5,
+    .colS7 {
+      width: 100%;
+    }
+  }
+  
+  /* this formats for mobile use */
+  @media screen and (max-width: 400px) {
+    .col-s4 {
+      width: 150px;
+      height: 250px;
+      float: left;
+      margin: 8px;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      position: relative;
+    }
+  
+    #head2 {
+      font-size: 25px;
+    }
+    /* this code is for the mobile breaks of the search and instructions blocks*/
+    @media screen and (max-width: 800px) {
+      .colS5,
+      .colS7 {
+        width: 100%;
+      }
+    }
+  }
