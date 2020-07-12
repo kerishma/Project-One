@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Restaurant Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <a href="index.html"><h1>Restaurant Finder</h1></a>
+    </header>
+    <!--main container-->
+    <div class="container">
+        <!--first row-->
+        <div class="row">
+            <div class="col s12">
+            </div>
+        </div>
+
+        <!--content row-->
+        <div class="row" id="row2">
+            <div class="colsearch" id="column">
+                <h4 class="z-depth-4">Enter Type of Food</h4>
+                <!--search field-->
+                <form id="search">
+                    <div class="input-field col s12">
+                        <input id="search-bar" placeholder="Search For Foods..." style="color: ghostwhite;"></input>
+                        <button class="waves-effect waves-light btn" id="submit-btn">Search</button>
+                    </div>
+                </form>
+            </div>
+            
+            <!--instructions for users-->
+            <div class="colS5" id="column">
+                <h4 id="instruction-header" class="z-depth-5" class="center">Instructions:</h4>
+                <li class="collection-item">Come up with favorite type of food</li>
+                <li class="collection-item">Type the food in the search bar</li>
+                <li class="collection-item">The results will show below</li>
+                <li class="collection-item">restaurants with will show up below</li>
+                <li class="collection-item">Click the radial button for take out</li>
+                <li class="collection-item">Enjoy!</li>
+            </div>
+        </div>
+
+        <!--resturants row-->
+        <div class="row">
+            <h4 class="z-depth-5" id="head2"> <span id="searchname"></span>Restaurants...</h4>
+            <div id="posters-row" class="responsive-img">
+            </div>
+            <!--modal structure-->
+            <div id="modal" class="modal fade" role="dialog" aria-labelledby="orderModalLabel">
+                <span id="modalDetails" class="modal-body">
+                    <div id="row">
+                        <span class="col s12" id="modalheader">Name: <span id="display-title" class="display"></span>
+                        </span>
+                    </div>
+                    <div id="row">
+                        <div class="colS9">
+                            <img id="display-image" class="miniImg"></img>
+                            <p>
+                                <span id="modalheaders">Cuisine: </span><span id="display-plot" class="display"></span>
+                            </p>
+                            <p>
+                                <span id="modalheaders">Location: </span><span id="display-rating" class="display"></span>
+                            </p>
+                            <p>
+                                <span id="modalheaders">Rating: </span><span id="display-release"
+                                    class="display"></span>
+                            </p>
+                            <p>
+                                <span id="modalheaders">Takeout: </span><span id="display-runtime"
+                                    class="display"></span>
+                            </p>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    </div>
 </body>
 </html>
