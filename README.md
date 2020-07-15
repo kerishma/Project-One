@@ -4,7 +4,7 @@
 
 * Must use at least two server-side APIs
 
-* Must use a CSS framework _other than_ Bootstrap
+* Must use a CSS framework Bootstrap
 
 * Must be interactive (i.e: accept and respond to user input)
 
@@ -16,8 +16,7 @@
 
 * Does not use alerts, confirms or prompts (look into _modals_)
 
-* Must be deployed to GitHub Pages
-* testing 
+* Must be deployed to GitHub Pages 
 
 
 ## Presentation Requirements
@@ -56,5 +55,17 @@ You are required to submit the following:
 
 * The URL of the GitHub repository
 
+* ## Technologies was used
+* HTML 
+* CSS
+* Bootstrap
+* JavaScript 
+* jQuery
+
+## Deployed link
 
 
+### Gif Demo 
+![ Work Day Scheduler Demo]()
+
+## Owner
