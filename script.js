@@ -1,6 +1,7 @@
 /**
  * pulls information from the form and build the query URL
  * @returns {string} URL for NYT API based on form inputs     //saw this on that NYT code and unsure if this is needed
+// kerishma
  **/
 
 // const yelpAPIKey = 'A6W2haSMPnuc0W8I17tbVQJJujuzUu3OuzLGJS9arw_Z0ubUFS273g5Ub8hhrLU0gWcuMLtix5mq7kpprkDb74ymvcLi9IQslAf12tOxk6Hnvd0xg_as-LEMnjINX3Yx'
@@ -28,21 +29,44 @@ function buildQueryURL(term, lat, lon) {
         "latitude": lat,
         "longitude": lon
     };
+//this is a seperator
+ */
+
+function buildQueryURL() {
+    //query URL goes here but don't know which site we'll get data from yet
+    const queryURL = "";
+
+    // Set the API key....need the api key lol
+    const queryParams = { "api-key": "" };
+
+    // Grab text the user typed into the search input, add to the queryParams object
+    queryParams.q = $("#search-bar")
+        .val()
+        .trim();
+// master
 
     // Logging the URL so we have access to it for troubleshooting....took this part from the NYT example i think it'll be useful?
     console.log("---------------\nURL: " + queryURL + "\n---------------");
     console.log(queryURL + $.param(queryParams));
+// kerishma
     // return queryURL + $.param(queryParams);
+//this is a seperator
+// master
     return queryURL + $.param(queryParams);
 }
 
 // .on("click") function associated with the Search Button
+// kerishma
 $("#submit-btn").click(function (event) {
+//this is a seperator
+$("#submit-btn").on("click", function (event) {
+// master
     // This line allows us to take advantage of the HTML "submit" property
     // This way we can hit enter on the keyboard and it registers the search
     // (in addition to clicks). Prevents the page from reloading on form submit.
     event.preventDefault();
 
+// kerishma
     getYelpData(userLocation)
 
 });
@@ -112,3 +136,18 @@ function getYelpData(data) {
         },
     })
 }
+//this is a seperator
+    // Empty the region associated with the articles
+    clear();
+
+    // Build the query URL for the ajax request to the NYT API
+    const queryURL = buildQueryURL();
+
+    // Make the AJAX request to the API - GETs the JSON data at the queryURL.
+    // The data then gets passed as an argument to the updatePage function
+    $.ajax({
+        url: queryURL,
+        method: "GET"
+    }).then(updatePage);
+});
+// master
