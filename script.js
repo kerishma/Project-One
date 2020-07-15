@@ -37,6 +37,7 @@ function buildQueryURL(term, lat, lon) {
 }
 
 // .on("click") function associated with the Search Button
+// kerishma
 $("#submit-btn").click(function (event) {
   // This line allows us to take advantage of the HTML "submit" property
   // This way we can hit enter on the keyboard and it registers the search
