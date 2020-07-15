@@ -1,9 +1,3 @@
-/**
- * pulls information from the form and build the query URL
- * @returns {string} URL for NYT API based on form inputs     //saw this on that NYT code and unsure if this is needed
- **/
-
-// const yelpAPIKey = 'A6W2haSMPnuc0W8I17tbVQJJujuzUu3OuzLGJS9arw_Z0ubUFS273g5Ub8hhrLU0gWcuMLtix5mq7kpprkDb74ymvcLi9IQslAf12tOxk6Hnvd0xg_as-LEMnjINX3Yx'
 const proxyurl = "https://cors-anywhere.herokuapp.com/";
 
 let userLocation;
@@ -54,8 +48,8 @@ function createRestaurantCards(data) {
     for (let i = 0; i < places.length; i++) {
         let cardDeck = $("<div class='card-deck'></div>")
         let card = $("<div class='card mb-3'></div>");
-        let cardRow = $("<div class='row no-gutters'></div");
-        let cardImgCol = $("<div class='col'></div")
+        let cardRow = $("<div class='row no-gutters'></div>");
+        let cardImgCol = $("<div class='col'></div>")
         let yelpImg = $(`<img class='card-img img-fluid' src=${places[i].image_url}>`);
         let cardColBody = $("<div class='col-md-8'></div>")
         let cardBody = $("<div class='card-body'>");
