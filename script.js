@@ -108,7 +108,7 @@ function getYelpData(data) {
             createRestaurantCards(result)
         },
         error: function (error) {
-            console.log("error reaching API: " + error)
+            // console.log("error reaching API: " + error)
         },
     })
 }
