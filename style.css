@@ -87,7 +87,23 @@ header {
   padding: 15px;
 }
 
+/* #finder {
+  justify-content: center;
+} */
+
 /* classes below */
+
+.z-depth-4 {
+  justify-content: center;
+}
+
+.card {
+  background-color: #A9A9A9;
+}
+
+.card-deck {
+  background-color: rgb(182, 96, 39);
+}
 
 .container {
   border-radius: 10px;
