@@ -2,6 +2,8 @@ body {
   background-color: darkslategray;
   color: ghostwhite;
   font-family: 'Grenze Gotisch', cursive;
+  background: url(https://cdn.hipwallpaper.com/i/0/68/OG1FLx.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 h4,
@@ -60,7 +62,7 @@ header {
 }
 
 #row2 {
-  background-color: rgb(182, 96, 39);
+  background-color: #332c2c;
   border-radius: 10px 10px 0px 0;
   padding: 5px;
   margin: 0;
@@ -87,9 +89,13 @@ header {
   padding: 15px;
 }
 
-/* #finder {
-  justify-content: center;
-} */
+#finder {
+  border-radius: 15px 15px 15px 15px;
+  font-family: 'Grenze Gotisch', cursive;
+  background-color: #332c2c;
+  color: whitesmoke;
+  font-size: 75px;
+}
 
 /* classes below */
 
@@ -98,11 +104,12 @@ header {
 }
 
 .card {
-  background-color: #A9A9A9;
+  background-color: darkgrey!important;
+  color: whitesmoke!important;
 }
 
 .card-deck {
-  background-color: rgb(182, 96, 39);
+  background-color: #332c2c;
 }
 
 #rCards > .card-deck {
