@@ -69,3 +69,8 @@ You are required to submit the following:
 ![ Work Day Scheduler Demo](https://github.com/kerishma/Project-One/blob/master/Restaurant%20Finder.gif)
 
 ## Owner
+Team Homeland Uniform Apocalypse (the HUA)
+
+## Checklist
+add button that selects random restaurant nearby
+possible filter box for takeout options, etc
