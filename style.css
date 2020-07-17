@@ -105,6 +105,11 @@ header {
   background-color: rgb(182, 96, 39);
 }
 
+#rCards > .card-deck {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .container {
   border-radius: 10px;
 }
