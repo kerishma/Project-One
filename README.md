@@ -66,6 +66,6 @@ You are required to submit the following:
 
 
 ### Gif Demo 
-![ Work Day Scheduler Demo]()
+![ Work Day Scheduler Demo](https://github.com/kerishma/Project-One/blob/master/Restaurant%20Finder.gif)
 
 ## Owner
