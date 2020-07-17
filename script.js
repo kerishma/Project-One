@@ -3,7 +3,7 @@ const proxyurl = "https://cors-anywhere.herokuapp.com/";
 let userLocation;
 
 $(document).ready(function () {
-    getUserLocation()
+  getUserLocation();
 });
 
 function buildQueryURL(term, lat, lon) {
@@ -39,6 +39,7 @@ $("#submit-btn").click(function (event) {
 
     getYelpData(userLocation)
 
+  getYelpData(userLocation);
 });
 
 function createRestaurantCards(data) {
@@ -71,13 +72,13 @@ function createRestaurantCards(data) {
 // We are asking the user for their location as soon as the HTML page loads
 // that way we can show them restaurants close to their location
 function getUserLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    }
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  }
 }
 
 function showPosition(position) {
-    userLocation = position.coords
+  userLocation = position.coords;
 }
 
 function getYelpData(data) {
