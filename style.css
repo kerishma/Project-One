@@ -79,6 +79,12 @@ header {
   background-color: darkgrey;
 }
 
+#randomBtn {
+  float: right;
+  border-radius: 7px;
+  background-color: darkgrey;
+}
+
 #searchname {
   margin: 0 5px 0 5px;
   /* font-size: ; */
