@@ -72,5 +72,9 @@ You are required to submit the following:
 Team Homeland Uniform Apocalypse (the HUA)
 
 ## Checklist
-add button that selects random restaurant nearby
+make random button different every time
+
+FIX BLANK SEARCH SEARCHING NEARBY WHATEVERS
+
 possible filter box for takeout options, etc
+add translation api for 2nd one, and add buttons for it.
