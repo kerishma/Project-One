@@ -71,8 +71,14 @@ You are required to submit the following:
 ## Owner
 Team Homeland Uniform Apocalypse (the HUA)
 
+
+## Google API
+Use the following to create an account
+
+* https://developers.google.com/maps/gmp-get-started
+
 ## Checklist
-make random button different every time
+make random button different every time Done
 
 FIX BLANK SEARCH SEARCHING NEARBY WHATEVERS
 
