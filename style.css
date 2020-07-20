@@ -62,8 +62,12 @@ header {
   color: black;
 }
 
+#head2 {
+  font-size: 25px;
+}
+
 #row2 {
-  background-color: #332c2c;
+  background-color: #221e1e;
   border-radius: 10px 10px 0px 0;
   padding: 5px;
   margin: 0;
@@ -98,11 +102,39 @@ header {
 
 #finder {
   text-decoration: none;
-  border-radius: 15px 15px 15px 15px;
+  /* border-radius: 15px 15px 15px 15px; */
   font-family: "Grenze Gotisch", cursive;
-  background-color: #332c2c;
+  background-color: #221e1e;
   color: whitesmoke;
-  font-size: 75px;
+  /* font-size: 125px; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 85px 0px;
+  border-style: outset;
+  border-color: #2e2b2b;
+  border-width: 10px;
+  box-shadow: 0px 0px 20px 0px black;
+}
+
+#finderText {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 5px 5px 5px #000000;
+}
+
+#submitNutBtn {
+  float: right;
+  border-radius: 7px;
+  background-color: darkgrey;
+  /* position: relative; */
+}
+
+#rCards {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* classes below */
@@ -121,7 +153,7 @@ header {
 }
 
 #rCards > .card-deck {
-  margin-left: 0;
+  margin-left: 0px;
   margin-right: 0;
 }
 
@@ -143,9 +175,12 @@ header {
 }
 
 .colS5 {
-  width: 42%;
+  width: 25%;
   float: left;
   padding: 0 10px 10px 10px;
+  border-style: inset;
+  border-color: #2e2b2b;
+  border-radius: 10px;
 }
 
 .col-s4 {
@@ -159,15 +194,30 @@ header {
     0 13px 20px 0 rgba(255, 255, 255, 0.19);
 }
 
+/* .row {
+  box-shadow: 0 12px 14px 0 black,
+  0 13px 20px 0 black ;
+} */
+
 .colsearch {
   float: left;
-  width: 58%;
+  width: 50%;
   padding: 0 10px 0 10px;
+  border-style: inset;
+  border-color: #2e2b2b;
+  border-radius: 10px;
 }
 
 .display {
   color: black;
   text-shadow: 2px 2px 0px ghostwhite;
+}
+
+.nutrition {
+  width: 25%;
+  border-style: groove;
+  border-color: #2e2b2b;
+  border-radius: 10px;
 }
 
 .miniImg {
@@ -201,9 +251,6 @@ header {
     position: relative;
   }
 
-  #head2 {
-    font-size: 25px;
-  }
 
   /* this code is for the mobile breaks of the search and instructions blocks*/
   @media screen and (max-width: 800px) {
@@ -214,7 +261,3 @@ header {
   }
 }
 
-#rCards {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
