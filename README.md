@@ -71,6 +71,16 @@ You are required to submit the following:
 ## Owner
 Team Homeland Uniform Apocalypse (the HUA)
 
+
+## Google API
+Use the following to create an account
+
+* https://developers.google.com/maps/gmp-get-started
+
 ## Checklist
-add button that selects random restaurant nearby
+make random button different every time Done
+
+FIX BLANK SEARCH SEARCHING NEARBY WHATEVERS
+
 possible filter box for takeout options, etc
+add translation api for 2nd one, and add buttons for it.

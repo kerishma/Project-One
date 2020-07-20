@@ -1,8 +1,9 @@
 body {
   background-color: darkslategray;
   color: ghostwhite;
-  font-family: 'Grenze Gotisch', cursive;
-  background: url(https://cdn.hipwallpaper.com/i/0/68/OG1FLx.jpg) no-repeat center center fixed;
+  font-family: "Grenze Gotisch", cursive;
+  background: url(https://cdn.hipwallpaper.com/i/0/68/OG1FLx.jpg) no-repeat
+    center center fixed;
   background-size: cover;
 }
 
@@ -14,11 +15,11 @@ h6 {
   display: flex;
   text-shadow: 4px 4px 4px #000000;
 }
-
 /* Page logo */
 header {
   text-align: center;
   height: auto;
+  margin-top: 10px;
   background-color: transparent;
   object-fit: contain;
 }
@@ -79,6 +80,12 @@ header {
   background-color: darkgrey;
 }
 
+#randomBtn {
+  float: right;
+  border-radius: 7px;
+  background-color: darkgrey;
+}
+
 #searchname {
   margin: 0 5px 0 5px;
   /* font-size: ; */
@@ -90,8 +97,9 @@ header {
 }
 
 #finder {
+  text-decoration: none;
   border-radius: 15px 15px 15px 15px;
-  font-family: 'Grenze Gotisch', cursive;
+  font-family: "Grenze Gotisch", cursive;
   background-color: #332c2c;
   color: whitesmoke;
   font-size: 75px;
@@ -104,8 +112,8 @@ header {
 }
 
 .card {
-  background-color: darkgrey!important;
-  color: whitesmoke!important;
+  background-color: darkgrey !important;
+  color: whitesmoke !important;
 }
 
 .card-deck {
@@ -172,11 +180,9 @@ header {
   justify-content: center;
 }
 
-
 /*media*/
 
 @media screen and (max-width: 800px) {
-
   .colS5,
   .colS7 {
     width: 100%;
@@ -201,7 +207,6 @@ header {
 
   /* this code is for the mobile breaks of the search and instructions blocks*/
   @media screen and (max-width: 800px) {
-
     .colS5,
     .colS7 {
       width: 100%;

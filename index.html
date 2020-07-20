@@ -24,8 +24,8 @@
 
 <body>
     <header>
-        <a href="index.html">
-            <button id="finder">Restaurant Finder</button>
+        <a href="index.html" id="finder">
+            Restaurant Finder
         </a>
     </header>
     <!--main container-->
@@ -38,25 +38,31 @@
 
         <!--content row-->
         <div class="row" id="row2">
-            <div class="colsearch" id="column">
+            <div class="colsearch">
                 <h4 class="z-depth-4">Enter Type of Food</h4>
                 <!--search field-->
                 <form id="search">
                     <div class="input-field col s12">
-                        <input id="search-bar" placeholder="Search For Foods..." style="color: ghostwhite;"></input>
-                        <button class="waves-effect waves-light btn" id="submit-btn">Search</button>
+                        <input id="search-bar" placeholder="Search For Foods..." style="color: ghostwhite;"/>
+                        <button class="waves-effect waves-light btn" id="submit-btn" disabled>Search</button><br><br><br>
+                        <button class="waves-effect waves-light btn" id="randomBtn" disabled>Surprise me!</button>
                     </div>
                 </form>
             </div>
 
             <!--instructions for users-->
-            <div class="colS5" id="column">
-                <h4 id="instruction-header" class="z-depth-5" class="center">Instructions:</h4>
-                <li class="collection-item">Come up with favorite type of food</li>
-                <li class="collection-item">Type the food in the search bar</li>
-                <li class="collection-item">The results will show below</li>
-                <li class="collection-item">restaurants with will show up below</li>
-                <li class="collection-item">Enjoy!</li>
+            <div class="colS5">
+                <h4 id="instruction-header" class="z-depth-5 center">Instructions:</h4>
+                <ul>
+                    <li class="collection-item">- Come up with favorite type of food</li>
+                    <li class="collection-item">- Type the food in the search bar</li>
+                    <li class="collection-item">- Click submit to see nearby restaurants</li>
+                    <li class="collection-item">- Click surprise me to pick a random restaurant!</li>
+                    <li class="collection-item">- The results will show below</li>
+                    <li class="collection-item">- Restaurants with will show up below</li>
+                    <li class="collection-item">- Click the image to open up yelp page</li>
+                    <li class="collection-item">- Enjoy!</li>
+                </ul>
             </div>
         </div>
 
@@ -65,48 +71,13 @@
         </div>
     </div>
 
+    
 
-    <!-- resturants row -->
-        <!-- <div class="row">
-            <h4 class="z-depth-5" id="head2"> <span id="searchname"></span>Restaurants...</h4>
-            <div id="posters-row" class="responsive-img">
-            </div>
-            modal structure
-            <div id="modal" class="modal fade" role="dialog" aria-labelledby="orderModalLabel">
-                <span id="modalDetails" class="modal-body">
-                    <div id="row">
-                        <span class="col s12" id="modalheader">Name: <span id="display-title" class="display"></span>
-                        </span>
-                    </div>
-                    <div id="row">
-                        <div class="colS9">
-                            <img id="display-image" class="miniImg"></img>
-                            <p>
-                                <span id="modalheaders">Cuisine: </span><span id="display-plot" class="display"></span>
-                            </p>
-                            <p>
-                                <span id="modalheaders">Location: </span><span id="display-rating"
-                                    class="display"></span>
-                            </p>
-                            <p>
-                                <span id="modalheaders">Rating: </span><span id="display-release"
-                                    class="display"></span>
-                            </p>
-                            <p>
-                                <span id="modalheaders">Takeout: </span><span id="display-runtime"
-                                    class="display"></span>
-                            </p>
-                        </div>
-                    </div>
-                </span>
-            </div>
-        </div>
-  </div>
-
-    </div> -->
-
-    <script src="./config.js" type="text/javascript"></script>
-    <script src="./script.js" type="text/javascript"></script>
+    <script src="./config.js"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDej2-_lDvYfBMyngvNHwR1O4hDWuq_BAw">
+    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
