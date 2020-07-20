@@ -97,7 +97,7 @@ function createRestaurantCards(data) {
     }
     }
 
-}
+
 
 // We are asking the user for their location as soon as the HTML page loads
 // that way we can show them restaurants close to their location
