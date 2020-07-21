@@ -56,15 +56,16 @@ $("#randomBtn").click(function (event) {
   getYelpData(userLocation);
 });
 
-// $("#submitNutBtn").click(function (event) {
-//   // this is the setup for the nurtition button and search
-//     event.preventDefault();
+$("#submitNutBtn").click(function (event) {
+  // this is the setup for the nurtition button and search
+    event.preventDefault();
   
-//     let nutBar = $("#nutrition-bar").val();
-//     if (!nutBar) {
-//       $("#nutrition-bar").attr("placeholder", "I SAID, Enter Foods!");
-//       return;
-//     }
+    let nutBar = $("#nutrition-bar").val();
+    if (!nutBar) {
+      $("#nutrition-bar").attr("placeholder", "I SAID, Enter Foods!");
+      return;
+    }
+});
 
 function createRestaurantCards(data, term) {
   let arrLength = 4;
