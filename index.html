@@ -23,11 +23,14 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html" id="finder">
+    
+        <!-- <a href="index.html" id="finder">
             Restaurant Finder
-        </a>
-    </header>
+        </a> -->
+        <nav class="navbar navbar" id="finder">
+            <a class="navbar-brand"  id="finderText" href="./index.html">Restaurant Finder</a>
+          </nav>
+    
     <!--main container-->
     <div class="container">
         <!--first row-->
@@ -44,24 +47,34 @@
                 <form id="search">
                     <div class="input-field col s12">
                         <input id="search-bar" placeholder="Search For Foods..." style="color: ghostwhite;"/>
-                        <button class="waves-effect waves-light btn" id="submit-btn" disabled>Search</button><br><br><br>
-                        <button class="waves-effect waves-light btn" id="randomBtn" disabled>Surprise me!</button>
+                        <button class="waves-effect waves-light btn" id="submit-btn">Search</button><br><br><br>
+                        <button class="waves-effect waves-light btn" id="randomBtn">Surprise me!</button>
                     </div>
                 </form>
             </div>
-
+            <!-- nutrition search field -->
+            <div class="nutrition">
+                <h4 class="z-depth-4">Food Nutritions</h4>
+                <!--search field-->
+                <form id="searchNutrition">
+                    <div class="input-field col s12">
+                        <input id="nutrition-bar" placeholder="Enter Foods Here..." style="color: ghostwhite;"/><br><br>
+                        <button class="waves-effect waves-light btn" id="submitNutBtn">Find</button>
+                    </div>
+                </form>
+            </div>
             <!--instructions for users-->
             <div class="colS5">
                 <h4 id="instruction-header" class="z-depth-5 center">Instructions:</h4>
                 <ul>
-                    <li class="collection-item">- Come up with favorite type of food</li>
-                    <li class="collection-item">- Type the food in the search bar</li>
-                    <li class="collection-item">- Click submit to see nearby restaurants</li>
-                    <li class="collection-item">- Click surprise me to pick a random restaurant!</li>
-                    <li class="collection-item">- The results will show below</li>
-                    <li class="collection-item">- Restaurants with will show up below</li>
-                    <li class="collection-item">- Click the image to open up yelp page</li>
-                    <li class="collection-item">- Enjoy!</li>
+                    <li class="collection-item">•Come up with favorite type of food</li>
+                    <li class="collection-item">•Type the food in the search bar</li>
+                    <li class="collection-item">•Click submit to see nearby restaurants</li>
+                    <li class="collection-item">•Click surprise me to pick a random restaurant!</li>
+                    <li class="collection-item">•The results will show below</li>
+                    <li class="collection-item">•Restaurants with will show up below</li>
+                    <li class="collection-item">•Click the image to open up yelp page</li>
+                    <li class="collection-item">•Enjoy!</li>
                 </ul>
             </div>
         </div>
