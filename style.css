@@ -274,3 +274,22 @@ header {
   }
 }
 
+/* pizza spin when clicked*/
+#pizzaSpin {
+  transition: transform 3.5s;
+  height: auto;
+  width: 100px;
+  z-index: 10%;
+  position: absolute;
+    bottom:0px;
+    top: 350px;
+    right: 400px;
+}
+
+.rotate {
+  -webkit-transform: rotate(1080deg);
+  -moz-transform: rotate(1080deg);
+  -o-transform: rotate(1080deg);
+  -ms-transform: rotate(1080deg);
+  transform: rotate(1080deg);
+}

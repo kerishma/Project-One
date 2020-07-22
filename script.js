@@ -172,3 +172,8 @@ function initMap(mapID, lat, lon) {
   // The marker, positioned at Uluru
   var marker = new google.maps.Marker({ position: uluru, map: map });
 }
+
+//Pizza Spin
+$('#pizzaSpin').click(function() {
+  $(this).toggleClass('rotate');
+});
