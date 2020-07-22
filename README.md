@@ -39,7 +39,7 @@ Use this [project presentation template](https://docs.google.com/presentation/d/
 kerishma.github.io/project-one/.
 
 ### Gif Demo 
-![ Work Day Scheduler Demo]
+[ Restaurant Finder Demo] ( https://github.com/kerishma/Project-One/blob/master/Restaurant%20Finder.gif )
 
 ## Owner
 Team Homeland Uniform Apocalypse (the HUA)
