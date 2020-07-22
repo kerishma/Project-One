@@ -175,10 +175,10 @@ header {
 }
 
 .colS5 {
-  width: 25%;
+  width: 35%;
   float: left;
   padding: 0 10px 10px 10px;
-  border-style: inset;
+  border-style: outset;
   border-color: #2e2b2b;
   border-radius: 10px;
 }
@@ -201,7 +201,7 @@ header {
 
 .colsearch {
   float: left;
-  width: 50%;
+  width: 65%;
   padding: 0 10px 0 10px;
   border-style: inset;
   border-color: #2e2b2b;
@@ -213,12 +213,6 @@ header {
   text-shadow: 2px 2px 0px ghostwhite;
 }
 
-.nutrition {
-  width: 25%;
-  border-style: groove;
-  border-color: #2e2b2b;
-  border-radius: 10px;
-}
 
 .miniImg {
   float: right;
