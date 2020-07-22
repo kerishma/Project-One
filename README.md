@@ -2,21 +2,21 @@
 
 ## Application Requirements
 
-* Must use at least two server-side APIs
+* Must use at least two server-side APIs X
 
-* Must use a CSS framework Bootstrap
+* Must use a CSS framework Bootstrap X
 
-* Must be interactive (i.e: accept and respond to user input)
+* Must be interactive (i.e: accept and respond to user input) X
 
-* Use at least one new third-party API
+* Use at least one new third-party API X
 
-* Must have a polished UI
+* Must have a polished UI X
 
-* Must meet good quality coding standards
+* Must meet good quality coding standards X
 
-* Does not use alerts, confirms or prompts (look into _modals_)
+* Does not use alerts, confirms or prompts (look into _modals_) X
 
-* Must be deployed to GitHub Pages 
+* Must be deployed to GitHub Pages X
 
 
 ## Presentation Requirements
@@ -35,52 +35,18 @@ Use this [project presentation template](https://docs.google.com/presentation/d/
 
 * Links to the deployed application and the GitHub repository
 
-
-## Grading Metrics 
-
-| Metric        | Weight | 
-| ---           | ---    |
-| Concept       | 10%    |
-| Design        | 20%    |
-| Functionality | 30%    |
-| Collaboration | 30%    |
-| Presentation  | 10%    |
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository
-
-* ## Technologies was used
-* HTML 
-* CSS
-* Bootstrap
-* JavaScript 
-* jQuery
-
 ## Deployed link
 
 
 ### Gif Demo 
-![ Work Day Scheduler Demo](https://github.com/kerishma/Project-One/blob/master/Restaurant%20Finder.gif)
+![ Work Day Scheduler Demo]
 
 ## Owner
 Team Homeland Uniform Apocalypse (the HUA)
 
 
 ## Google API
-Use the following to create an account
-
 * https://developers.google.com/maps/gmp-get-started
 
-## Checklist
-make random button different every time Done
-
-FIX BLANK SEARCH SEARCHING NEARBY WHATEVERS
-
-possible filter box for takeout options, etc
-add translation api for 2nd one, and add buttons for it.
+## Yelp API
+* https://api.yelp.com/v3/businesses/search?
