@@ -36,7 +36,7 @@ Use this [project presentation template](https://docs.google.com/presentation/d/
 * Links to the deployed application and the GitHub repository
 
 ## Deployed link
-
+kerishma.github.io/project-one/.
 
 ### Gif Demo 
 ![ Work Day Scheduler Demo]
