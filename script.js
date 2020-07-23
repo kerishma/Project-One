@@ -14,11 +14,11 @@ function buildQueryURL(term, lat, lon) {
   // and satisfy their requirement, so we need to use a proxy; CORS;
   // When we use the proxy, the cors-anywhere.herokuapp makes the API call
   // for us so we can pass the CORS along
-  // query URL goes here but don't know which site we'll get data from yet
+  // query URL goes here.
 
   const queryURL = proxyurl + "https://api.yelp.com/v3/businesses/search?";
 
-  // Set the API key....need the api key lol
+  // Set the API key.
   const queryParams = {
     term: term,
     latitude: lat,
